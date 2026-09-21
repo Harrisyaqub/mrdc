@@ -39,14 +39,15 @@ const subtitle =
       ? "A step-by-step guide to how we support you through prosthetic & orthotic rehabilitation."
       : "Um guia passo a passo sobre como apoiamos você na reabilitação protética e ortopédica."
     : "");
-const title = route ? `${heading} | MRDC Mozambique` : t.homeTitle;
+const title = route
+  ? `${heading} | MRDC ${lang === "pt" ? "Moçambique" : "Mozambique"}`
+  : t.homeTitle;
 const description = (
   subtitle ||
   (lang === "en"
     ? `${heading}: information from Mozambique Rehabilitation and Diagnostic Center in Maputo.`
     : `${heading}: informações do Centro de Reabilitação e Diagnóstico de Moçambique, em Maputo.`)
 ).slice(0, 170);
-const aboutSections = d.about.slice(1, -1);
 ---
 
 <BaseLayout

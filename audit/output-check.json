@@ -1,0 +1,175 @@
+{
+  "reports": [
+    {
+      "file": "dist\\404.html",
+      "title": "Page not found | MRDC",
+      "description": "Find MRDC products, patient information and contact details.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/404/",
+      "lang": "en",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\about-us\\index.html",
+      "title": "Transforming Lives Through Care & Innovation | MRDC Mozambique",
+      "description": "At MRDC, we’re more than a rehabilitation and diagnostic center — we’re a team dedicated to helping individuals regain independence, mobility, and confidence.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/about-us/",
+      "lang": "en",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\contact-us\\index.html",
+      "title": "Contact Us | MRDC Mozambique",
+      "description": "Contact Us: information from Mozambique Rehabilitation and Diagnostic Center in Maputo.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/contact-us/",
+      "lang": "en",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\cookies\\index.html",
+      "title": "Cookies | MRDC Mozambique",
+      "description": "Cookies: information from Mozambique Rehabilitation and Diagnostic Center in Maputo.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/cookies/",
+      "lang": "en",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\index.html",
+      "title": "Prosthetics & Orthotics Centre in Maputo | MRDC Mozambique",
+      "description": "From dependence to participation — empowering lives with advanced, customized prosthetic and orthotic solutions.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/",
+      "lang": "en",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\our-products\\index.html",
+      "title": "Innovative Prosthetic and Orthotic Solutions for Every Need | MRDC Mozambique",
+      "description": "Empowering individuals with high-quality, custom-made prosthetics, orthotics, and mobility aids.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/our-products/",
+      "lang": "en",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\patient-protocol\\index.html",
+      "title": "Patient Protocol at MRDC | MRDC Mozambique",
+      "description": "A step-by-step guide to how we support you through prosthetic & orthotic rehabilitation.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/patient-protocol/",
+      "lang": "en",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\patients-we-serve\\index.html",
+      "title": "Patients We Serve | MRDC Mozambique",
+      "description": "Empowering Every Individual Through Compassionate Care",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/patients-we-serve/",
+      "lang": "en",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\privacy-policy\\index.html",
+      "title": "Privacy Policy | MRDC Mozambique",
+      "description": "Privacy Policy: information from Mozambique Rehabilitation and Diagnostic Center in Maputo.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/privacy-policy/",
+      "lang": "en",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\pt\\about-us\\index.html",
+      "title": "Transformando vidas por meio de cuidado e inovação | MRDC Moçambique",
+      "description": "No MRDC, somos mais do que um centro de reabilitação e diagnóstico – somos uma equipe dedicada a ajudar os indivíduos a recuperarem independência, mobilidade e confiança.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/pt/about-us/",
+      "lang": "pt",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\pt\\contact-us\\index.html",
+      "title": "Contate-nos | MRDC Moçambique",
+      "description": "Contate-nos: informações do Centro de Reabilitação e Diagnóstico de Moçambique, em Maputo.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/pt/contact-us/",
+      "lang": "pt",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\pt\\cookies\\index.html",
+      "title": "Cookies | MRDC Moçambique",
+      "description": "Cookies: informações do Centro de Reabilitação e Diagnóstico de Moçambique, em Maputo.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/pt/cookies/",
+      "lang": "pt",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\pt\\index.html",
+      "title": "Centro de Próteses e Órteses em Maputo | MRDC Moçambique",
+      "description": "Da dependência à participação — capacitando vidas com soluções protéticas e ortopédicas avançadas e personalizadas.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/pt/",
+      "lang": "pt",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\pt\\our-products\\index.html",
+      "title": "Soluções protéticas e ortopédicas inovadoras para cada necessidade | MRDC Moçambique",
+      "description": "Capacitar indivíduos com próteses, órteses e auxiliares de mobilidade feitos sob medida e de alta qualidade.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/pt/our-products/",
+      "lang": "pt",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\pt\\patient-protocol\\index.html",
+      "title": "Protocolo do Paciente no MRDC | MRDC Moçambique",
+      "description": "Um guia passo a passo sobre como apoiamos você na reabilitação protética e ortopédica.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/pt/patient-protocol/",
+      "lang": "pt",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\pt\\patients-we-serve\\index.html",
+      "title": "Pacientes que atendemos | MRDC Moçambique",
+      "description": "Capacitando cada indivíduo por meio do cuidado compassivo",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/pt/patients-we-serve/",
+      "lang": "pt",
+      "unwanted": false,
+      "structuredData": true
+    },
+    {
+      "file": "dist\\pt\\privacy-policy\\index.html",
+      "title": "Política de Privacidade | MRDC Moçambique",
+      "description": "Política de Privacidade: informações do Centro de Reabilitação e Diagnóstico de Moçambique, em Maputo.",
+      "h1": 1,
+      "canonical": "https://mrdc.co.mz/pt/privacy-policy/",
+      "lang": "pt",
+      "unwanted": false,
+      "structuredData": true
+    }
+  ],
+  "errors": []
+}
