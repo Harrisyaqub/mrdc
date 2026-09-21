@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  lang="en"
+  route="404"
+  title="Page not found | MRDC"
+  description="Find MRDC products, patient information and contact details."
+>
+  <section class="section">
+    <div class="container narrow">
+      <p class="eyebrow">404</p>
+      <h1>Let’s get you back on the right path.</h1>
+      <p>This page could not be found. / Esta página não foi encontrada.</p>
+      <div class="flex flex-wrap gap-4 mt-8">
+        <a href="/" class="button">
+          Home
+        </a>
+        <a href="/pt/" class="button outline">
+          Início
+        </a>
+        <a href="/contact-us/" class="button outline">
+          Contact MRDC
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

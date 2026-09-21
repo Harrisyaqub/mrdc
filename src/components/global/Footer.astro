@@ -1,0 +1,74 @@
+---
+import { site, routes, href } from "../../data/site-config";
+import { ui } from "../../data/translations";
+import Picture from "../ui/Picture.astro";
+import Icon from "../ui/Icon.astro";
+const { lang = "en" } = Astro.props;
+const t = ui[lang];
+---
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href={href(lang)} class="footer-logo">
+        <Picture name="Logo.png" alt="MRDC" />
+      </a>
+      <p>
+        {lang === "en"
+          ? "Restoring mobility. Empowering lives."
+          : "Restaurando a mobilidade. Empoderando vidas."}
+      </p>
+      <div class="flex gap-4 mt-6">
+        <a href={site.facebook} aria-label="Facebook">
+          <Icon name="facebook" />
+        </a>
+        <a href={site.instagram} aria-label="Instagram">
+          <Icon name="instagram" />
+        </a>
+      </div>
+    </div>
+    <nav
+      aria-label={lang === "en" ? "Footer navigation" : "Navegação do rodapé"}
+    >
+      <ul>
+        {routes.slice(0, 6).map((r, i) => (
+          <li>
+            <a href={href(lang, r)}>{t.nav[i]}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <address>
+      <p>{site.address}</p>
+      <a href={`mailto:${site.email}`}>{site.email}</a>
+      <a href={`tel:${site.tel}`}>{site.phone}</a>
+    </address>
+  </div>
+  <div class="container footer-bottom">
+    <span>© {new Date().getFullYear()} MRDC</span>
+    <div class="flex flex-wrap gap-5">
+      <a href={href(lang, "cookies")}>{t.nav[6]}</a>
+      <a href={href(lang, "privacy-policy")}>{t.nav[7]}</a>
+      <button data-cookie-reset>{t.preferences}</button>
+    </div>
+  </div>
+</footer>
+<a class="whatsapp" href={site.whatsapp} aria-label={`WhatsApp — ${t.help}`}>
+  <Icon name="chat" size={26} />
+  <span>{t.help}</span>
+</a>
+<aside class="cookie-banner" aria-label={t.preferences} hidden>
+  <p>{t.cookies}</p>
+  <div class="cookie-links">
+    <a href={href(lang, "cookies")}>{t.nav[6]}</a> ·{" "}
+    <a href={href(lang, "privacy-policy")}>{t.nav[7]}</a>
+  </div>
+  <div class="flex gap-3 mt-4">
+    <button class="button" data-consent="accepted">
+      {t.accept}
+    </button>
+    <button class="button outline" data-consent="declined">
+      {t.decline}
+    </button>
+  </div>
+</aside>

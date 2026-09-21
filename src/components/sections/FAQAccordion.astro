@@ -1,0 +1,35 @@
+---
+import { content } from "../../data/content";
+import { ui } from "../../data/translations";
+const { lang = "en" } = Astro.props;
+---
+
+<section class="section faq-section">
+  <div class="container">
+    <h2 class="center-title">{ui[lang].faq}</h2>
+    <div class="faq-list">
+      {content[lang].faqs.map((faq, i) => (
+        <article class="faq-item">
+          <h3>
+            <button
+              aria-expanded="false"
+              aria-controls={`faq-${i}`}
+              id={`faq-button-${i}`}
+            >
+              {faq.question}
+              <span aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div
+            class="faq-answer"
+            id={`faq-${i}`}
+            aria-labelledby={`faq-button-${i}`}
+            hidden
+          >
+            <p>{faq.answer}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

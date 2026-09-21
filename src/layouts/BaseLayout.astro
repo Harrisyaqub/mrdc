@@ -1,0 +1,98 @@
+---
+import "../styles/global.css";
+import Header from "../components/global/Header.astro";
+import Footer from "../components/global/Footer.astro";
+import { site, href, routes } from "../data/site-config";
+import { ui } from "../data/translations";
+import { asset } from "../data/content";
+const { lang = "en", route = "", title, description } = Astro.props;
+const canonical = site.url + href(lang, route);
+const logo = asset("Logo.png");
+const og = asset("MRDC_1920x1080.jpg");
+const organization = {
+  "@context": "https://schema.org",
+  "@type": "MedicalOrganization",
+  name: "Mozambique Rehabilitation and Diagnostic Center",
+  url: site.url,
+  telephone: site.phone,
+  email: site.email,
+  logo: site.url + logo?.local,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Av. Rua São Paulo, Nº 607, Bairro 25 de Junho, KaMubukwana",
+    addressLocality: "Maputo",
+    addressCountry: "MZ",
+  },
+  sameAs: [site.facebook, site.instagram],
+};
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: ui[lang].nav[0],
+      item: site.url + href(lang),
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: ui[lang].nav[routes.indexOf(route)] || title,
+      item: canonical,
+    },
+  ],
+};
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#486930" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {route === "404" && <meta name="robots" content="noindex, follow" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={site.url + href("en", route)} />
+    <link rel="alternate" hreflang="pt" href={site.url + href("pt", route)} />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href={site.url + href("en", route)}
+    />
+    <link rel="icon" type="image/webp" href={logo?.local} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="MRDC" />
+    <meta property="og:locale" content={lang === "en" ? "en_GB" : "pt_MZ"} />
+    <meta property="og:image" content={site.url + og?.local} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={site.url + og?.local} />
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify(organization)}
+    ></script>
+    {route && (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify(breadcrumb)}
+      ></script>
+    )}
+  </head>
+  <body>
+    <Header lang={lang} route={route} />
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+    <script>
+      import "../scripts/interactions";
+    </script>
+  </body>
+</html>

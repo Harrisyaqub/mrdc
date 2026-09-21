@@ -1,0 +1,260 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "./sections/PageHero.astro";
+import CardGrid from "./sections/CardGrid.astro";
+import ContactPanel from "./sections/ContactPanel.astro";
+import CTASection from "./sections/CTASection.astro";
+import FAQAccordion from "./sections/FAQAccordion.astro";
+import ProtocolSteps from "./sections/ProtocolSteps.astro";
+import Picture from "./ui/Picture.astro";
+import RichText from "./ui/RichText.astro";
+import { content } from "../data/content";
+import { ui } from "../data/translations";
+import { href, site, routes } from "../data/site-config";
+import AboutContent from "./sections/AboutContent.astro";
+const { lang = "en", route = "" } = Astro.props;
+const d = content[lang],
+  t = ui[lang];
+const source =
+  route === "about-us"
+    ? d.about
+    : route === "our-products"
+      ? d.productPage
+      : route === "patients-we-serve"
+        ? d.patientPage
+        : route === "contact-us"
+          ? d.contact
+          : [];
+const heading =
+  source[0]?.title ||
+  (route === "patient-protocol"
+    ? lang === "en"
+      ? "Patient Protocol at MRDC"
+      : "Protocolo do Paciente no MRDC"
+    : t.nav[routes.indexOf(route)]);
+const subtitle =
+  source[0]?.blocks.find((b) => b.tag === "p")?.text ||
+  (route === "patient-protocol"
+    ? lang === "en"
+      ? "A step-by-step guide to how we support you through prosthetic & orthotic rehabilitation."
+      : "Um guia passo a passo sobre como apoiamos você na reabilitação protética e ortopédica."
+    : "");
+const title = route ? `${heading} | MRDC Mozambique` : t.homeTitle;
+const description = (
+  subtitle ||
+  (lang === "en"
+    ? `${heading}: information from Mozambique Rehabilitation and Diagnostic Center in Maputo.`
+    : `${heading}: informações do Centro de Reabilitação e Diagnóstico de Moçambique, em Maputo.`)
+).slice(0, 170);
+const aboutSections = d.about.slice(1, -1);
+---
+
+<BaseLayout
+  lang={lang}
+  route={route}
+  title={title}
+  description={!route ? d.home[0].blocks[0].text : description}
+>
+  {!route ? (
+    <>
+      <PageHero
+        home
+        lines={t.hero}
+        subtitle={d.home[0].blocks[0].text}
+        image="MRDC_1920x1080.jpg"
+      />
+      <section class="section intro-section">
+        <div class="container split">
+          <div>
+            <h2>{d.home[1].title}</h2>
+            <RichText blocks={d.home[1].blocks} />
+            <a class="text-link" href={href(lang, "about-us")}>
+              {t.nav[1]} <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="intro-picture">
+            <Picture
+              name="prosthetic-leg-walking-away.png"
+              alt={
+                lang === "en"
+                  ? "A person walking with a lower-limb prosthesis"
+                  : "Pessoa caminhando com uma prótese de membro inferior"
+              }
+            />
+          </div>
+        </div>
+      </section>
+    </>
+  ) : (
+    <PageHero
+      title={heading}
+      subtitle={subtitle}
+      image={
+        route === "contact-us"
+          ? "header_contact.jpg"
+          : route === "patient-protocol"
+            ? "image1.png"
+            : route === "patients-we-serve"
+              ? "who-we-serve.webp"
+              : route === "our-products"
+                ? "2e111f5db3ffe153ecf7d1a1a5b7a06ff6b25946.jpg"
+                : "about-bg-1.webp"
+      }
+    />
+  )}
+  {route === "about-us" && (
+    <>
+      <AboutContent lang={lang} />
+      <CTASection lang={lang} />
+    </>
+  )}
+  {(!route || route === "our-products") && (
+    <>
+      <section class="section products-section">
+        <div class="container">
+          <h2 class="center-title">{t.products}</h2>
+          {route === "our-products" && (
+            <RichText blocks={d.productPage[0].blocks.slice(1)} />
+          )}
+          <CardGrid items={d.products} lang={lang} />
+        </div>
+      </section>
+      <section class="section patients-section">
+        <div class="container">
+          <h2 class="center-title">{t.patients}</h2>
+          <p class="section-intro">{d.home[11].blocks[0]?.text}</p>
+          <CardGrid items={d.patients} kind="patients" lang={lang} />
+        </div>
+      </section>
+    </>
+  )}
+  {!route && (
+    <>
+      <ProtocolSteps lang={lang} />
+      <FAQAccordion lang={lang} />
+      <ContactPanel lang={lang} />
+    </>
+  )}
+  {route === "our-products" && <CTASection lang={lang} />}
+  {route === "patients-we-serve" && (
+    <>
+      <section class="section">
+        <div class="container split">
+          <div>
+            <h2>{d.patientPage[1].title}</h2>
+            <RichText blocks={d.patientPage[1].blocks} />
+          </div>
+          <Picture
+            name="who-we-serve.webp"
+            alt={
+              lang === "en"
+                ? "Rehabilitation and mobility support"
+                : "Reabilitação e apoio à mobilidade"
+            }
+            class="rounded-image"
+          />
+        </div>
+      </section>
+      <section class="section patients-section">
+        <div class="container">
+          <h2 class="center-title">{d.patientPage[2].title}</h2>
+          <RichText blocks={d.patientPage[2].blocks} />
+          <CardGrid items={d.patients} kind="patients" lang={lang} />
+          <div class="condition-grid">
+            {d.patientPage.slice(3, 10).map((s) => (
+              <article>
+                <h3>{s.title}</h3>
+                <RichText blocks={s.blocks} />
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container narrow">
+          <!-- Existing source claim; client substantiation is requested in CONTENT_REVIEW.md. -->
+          <h2>{d.patientPage[10].title}</h2>
+          <h2>
+            {lang === "en" ? "Let’s Heal with Us" : "Vamos cuidar de você"}
+          </h2>
+          <p>
+            {lang === "en"
+              ? "At MRDC, we make it easy for you to schedule your consultation or rehabilitation session. Whether you’re visiting for the first time or continuing your treatment, our team is ready to assist you with personalized care. Contact us directly to schedule your visit."
+              : "No MRDC, facilitamos o agendamento da sua consulta ou sessão de reabilitação. Seja na primeira visita ou na continuação do tratamento, nossa equipe está pronta para ajudar com atendimento personalizado. Entre em contato para agendar sua visita."}
+          </p>
+        </div>
+      </section>
+      <CTASection lang={lang} />
+    </>
+  )}
+  {route === "patient-protocol" && (
+    <>
+      <section class="section">
+        <div class="container protocol-timeline">
+          {d.protocol.map((step, i) => (
+            <article class="protocol-step" id={step.id}>
+              <div class="step-number">{String(i + 1).padStart(2, "0")}</div>
+              <div>
+                <h2>{step.title}</h2>
+                <RichText blocks={step.blocks} />
+              </div>
+              {step.image && i < 8 && (
+                <Picture
+                  name={step.image.url}
+                  alt={step.title}
+                  class="rounded-image"
+                />
+              )}
+            </article>
+          ))}
+        </div>
+      </section>
+      <CTASection lang={lang} />
+    </>
+  )}
+  {route === "contact-us" && <ContactPanel lang={lang} />}
+  {(route === "cookies" || route === "privacy-policy") && (
+    <section class="section">
+      <div class="container narrow prose">
+        {route === "cookies" ? (
+          <>
+            <h2>{lang === "en" ? "Your preferences" : "Suas preferências"}</h2>
+            <p>{t.cookies}</p>
+            <p>
+              {lang === "en"
+                ? "Your choice is stored in your browser’s local storage under “mrdc-cookie-preference”. You can change it using “Cookie preferences” in the footer, or remove it by clearing this site’s browser data."
+                : "Sua escolha é guardada no armazenamento local do navegador, em “mrdc-cookie-preference”. Pode alterá-la em “Preferências de cookies” no rodapé ou removê-la ao limpar os dados deste site no navegador."}
+            </p>
+          </>
+        ) : (
+          <>
+            <h2>{lang === "en" ? "Using this website" : "Uso deste site"}</h2>
+            <p>
+              {lang === "en"
+                ? "This website provides information about MRDC’s prosthetic and orthotic rehabilitation services. It does not include patient accounts, online booking forms, comments, or optional analytics and marketing trackers."
+                : "Este site fornece informações sobre os serviços de reabilitação protética e ortopédica do MRDC. Não inclui contas de pacientes, formulários de agendamento online, comentários ou rastreadores opcionais de análise e marketing."}
+            </p>
+            <h2>
+              {lang === "en"
+                ? "Contact and external services"
+                : "Contato e serviços externos"}
+            </h2>
+            <p>
+              {lang === "en"
+                ? "If you contact MRDC by telephone, email, or WhatsApp, your message is handled through that service. Links to WhatsApp, Facebook, and Instagram take you to external services with their own privacy practices. Please contact MRDC directly with questions about the handling of your information."
+                : "Se entrar em contato por telefone, e-mail ou WhatsApp, sua mensagem será tratada por esse serviço. Os links para WhatsApp, Facebook e Instagram levam a serviços externos com suas próprias práticas de privacidade. Entre em contato diretamente com o MRDC para esclarecer dúvidas sobre o tratamento de suas informações."}
+            </p>
+            <h2>
+              {lang === "en" ? "Browser storage" : "Armazenamento no navegador"}
+            </h2>
+            <p>{t.cookies}</p>
+          </>
+        )}
+        <p>
+          <a href={`mailto:${site.email}`}>{site.email}</a> ·{" "}
+          <a href={`tel:${site.tel}`}>{site.phone}</a>
+        </p>
+      </div>
+    </section>
+  )}
+</BaseLayout>

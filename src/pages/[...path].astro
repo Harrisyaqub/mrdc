@@ -1,0 +1,19 @@
+---
+import SitePage from "../components/SitePage.astro";
+import { routes } from "../data/site-config";
+export function getStaticPaths() {
+  return ["en", "pt"].flatMap((lang) =>
+    routes
+      .filter((route) => lang === "pt" || route)
+      .map((route) => ({
+        params: {
+          path: [lang === "pt" ? "pt" : "", route].filter(Boolean).join("/"),
+        },
+        props: { lang, route },
+      })),
+  );
+}
+const { lang, route } = Astro.props;
+---
+
+<SitePage lang={lang} route={route} />

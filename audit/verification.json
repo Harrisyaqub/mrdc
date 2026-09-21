@@ -1,0 +1,2803 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "en",
+      "title": "Prosthetics & Orthotics Centre in Maputo | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/",
+      "description": "From dependence to participation — empowering lives with advanced, customized prosthetic and orthotic solutions.",
+      "externalImages": []
+    },
+    {
+      "route": "/about-us/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "en",
+      "title": "Transforming Lives Through Care & Innovation | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/about-us/",
+      "description": "At MRDC, we’re more than a rehabilitation and diagnostic center — we’re a team dedicated to helping individuals regain independence, mobility, and confidence.",
+      "externalImages": []
+    },
+    {
+      "route": "/our-products/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "en",
+      "title": "Innovative Prosthetic and Orthotic Solutions for Every Need | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/our-products/",
+      "description": "Empowering individuals with high-quality, custom-made prosthetics, orthotics, and mobility aids.",
+      "externalImages": []
+    },
+    {
+      "route": "/patients-we-serve/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "en",
+      "title": "Patients We Serve | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/patients-we-serve/",
+      "description": "Empowering Every Individual Through Compassionate Care",
+      "externalImages": []
+    },
+    {
+      "route": "/patient-protocol/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "en",
+      "title": "Patient Protocol at MRDC | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/patient-protocol/",
+      "description": "A step-by-step guide to how we support you through prosthetic & orthotic rehabilitation.",
+      "externalImages": []
+    },
+    {
+      "route": "/contact-us/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "en",
+      "title": "Contact Us | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/contact-us/",
+      "description": "Contact Us: information from Mozambique Rehabilitation and Diagnostic Center in Maputo.",
+      "externalImages": []
+    },
+    {
+      "route": "/cookies/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "en",
+      "title": "Cookies | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/cookies/",
+      "description": "Cookies: information from Mozambique Rehabilitation and Diagnostic Center in Maputo.",
+      "externalImages": []
+    },
+    {
+      "route": "/privacy-policy/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "en",
+      "title": "Privacy Policy | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/privacy-policy/",
+      "description": "Privacy Policy: information from Mozambique Rehabilitation and Diagnostic Center in Maputo.",
+      "externalImages": []
+    },
+    {
+      "route": "/pt/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "pt",
+      "title": "Centro de Próteses e Órteses em Maputo | MRDC Moçambique",
+      "canonical": "https://mrdc.co.mz/pt/",
+      "description": "Da dependência à participação — capacitando vidas com soluções protéticas e ortopédicas avançadas e personalizadas.",
+      "externalImages": []
+    },
+    {
+      "route": "/pt/about-us/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "pt",
+      "title": "Transformando vidas por meio de cuidado e inovação | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/pt/about-us/",
+      "description": "No MRDC, somos mais do que um centro de reabilitação e diagnóstico – somos uma equipe dedicada a ajudar os indivíduos a recuperarem independência, mobilidade e confiança.",
+      "externalImages": []
+    },
+    {
+      "route": "/pt/our-products/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "pt",
+      "title": "Soluções protéticas e ortopédicas inovadoras para cada necessidade | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/pt/our-products/",
+      "description": "Capacitar indivíduos com próteses, órteses e auxiliares de mobilidade feitos sob medida e de alta qualidade.",
+      "externalImages": []
+    },
+    {
+      "route": "/pt/patients-we-serve/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "pt",
+      "title": "Pacientes que atendemos | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/pt/patients-we-serve/",
+      "description": "Capacitando cada indivíduo por meio do cuidado compassivo",
+      "externalImages": []
+    },
+    {
+      "route": "/pt/patient-protocol/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "pt",
+      "title": "Protocolo do Paciente no MRDC | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/pt/patient-protocol/",
+      "description": "Um guia passo a passo sobre como apoiamos você na reabilitação protética e ortopédica.",
+      "externalImages": []
+    },
+    {
+      "route": "/pt/contact-us/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "pt",
+      "title": "Contate-nos | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/pt/contact-us/",
+      "description": "Contate-nos: informações do Centro de Reabilitação e Diagnóstico de Moçambique, em Maputo.",
+      "externalImages": []
+    },
+    {
+      "route": "/pt/cookies/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "pt",
+      "title": "Cookies | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/pt/cookies/",
+      "description": "Cookies: informações do Centro de Reabilitação e Diagnóstico de Moçambique, em Maputo.",
+      "externalImages": []
+    },
+    {
+      "route": "/pt/privacy-policy/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 375,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1024,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1280,
+          "overflow": false,
+          "culprits": []
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "culprits": []
+        }
+      ],
+      "accessibility": [],
+      "h1": 1,
+      "lang": "pt",
+      "title": "Política de Privacidade | MRDC Mozambique",
+      "canonical": "https://mrdc.co.mz/pt/privacy-policy/",
+      "description": "Política de Privacidade: informações do Centro de Reabilitação e Diagnóstico de Moçambique, em Maputo.",
+      "externalImages": []
+    }
+  ],
+  "interactions": [
+    {
+      "test": "cookie decline persists",
+      "pass": true
+    },
+    {
+      "test": "cookie accept persists",
+      "pass": true
+    },
+    {
+      "test": "desktop dropdown opens",
+      "pass": true
+    },
+    {
+      "test": "dropdown escape restores focus",
+      "pass": true
+    },
+    {
+      "test": "outside click closes dropdown",
+      "pass": true
+    },
+    {
+      "test": "mobile menu 320",
+      "pass": true
+    },
+    {
+      "test": "mobile accordion 320",
+      "pass": true
+    },
+    {
+      "test": "menu no overflow 320",
+      "pass": true
+    },
+    {
+      "test": "mobile escape 320",
+      "pass": true
+    },
+    {
+      "test": "mobile menu 375",
+      "pass": true
+    },
+    {
+      "test": "mobile accordion 375",
+      "pass": true
+    },
+    {
+      "test": "menu no overflow 375",
+      "pass": true
+    },
+    {
+      "test": "mobile escape 375",
+      "pass": true
+    },
+    {
+      "test": "mobile menu 768",
+      "pass": true
+    },
+    {
+      "test": "mobile accordion 768",
+      "pass": true
+    },
+    {
+      "test": "menu no overflow 768",
+      "pass": true
+    },
+    {
+      "test": "mobile escape 768",
+      "pass": true
+    },
+    {
+      "test": "mobile menu 1024",
+      "pass": true
+    },
+    {
+      "test": "mobile accordion 1024",
+      "pass": true
+    },
+    {
+      "test": "menu no overflow 1024",
+      "pass": true
+    },
+    {
+      "test": "mobile escape 1024",
+      "pass": true
+    },
+    {
+      "test": "gallery 0 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 0 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 0 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 0 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 0 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 0 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 0 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 0 image 4",
+      "pass": true
+    },
+    {
+      "test": "gallery 0 image 5",
+      "pass": true
+    },
+    {
+      "test": "gallery 0 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 1 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 1 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 1 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 1 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 1 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 1 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 1 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 1 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 2 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 2 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 2 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 2 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 2 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 2 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 2 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 2 image 4",
+      "pass": true
+    },
+    {
+      "test": "gallery 2 image 5",
+      "pass": true
+    },
+    {
+      "test": "gallery 2 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 3 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 3 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 3 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 3 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 3 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 3 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 3 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 4",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 5",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 6",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 7",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 8",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 9",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 10",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 11",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 12",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 13",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 14",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 15",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 16",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 17",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 18",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 image 19",
+      "pass": true
+    },
+    {
+      "test": "gallery 4 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 5 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 5 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 5 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 5 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 5 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 5 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 5 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 5 image 4",
+      "pass": true
+    },
+    {
+      "test": "gallery 5 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 image 4",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 image 5",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 image 6",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 image 7",
+      "pass": true
+    },
+    {
+      "test": "gallery 6 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 7 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 7 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 7 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 7 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 7 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 7 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 7 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 7 image 4",
+      "pass": true
+    },
+    {
+      "test": "gallery 7 image 5",
+      "pass": true
+    },
+    {
+      "test": "gallery 7 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 8 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 8 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 8 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 8 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 8 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 8 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 8 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 8 image 4",
+      "pass": true
+    },
+    {
+      "test": "gallery 8 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 9 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 9 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 9 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 9 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 9 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 9 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 9 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 9 image 4",
+      "pass": true
+    },
+    {
+      "test": "gallery 9 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 10 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 10 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 10 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 10 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 10 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 10 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 10 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 11 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 11 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 11 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 11 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 11 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 11 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 11 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 12 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 12 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 12 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 12 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 12 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 12 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 12 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 12 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 13 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 13 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 13 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 13 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 13 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 13 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 13 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 14 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 14 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 14 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 14 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 14 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 14 image 2",
+      "pass": true
+    },
+    {
+      "test": "gallery 14 image 3",
+      "pass": true
+    },
+    {
+      "test": "gallery 14 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "gallery 15 opens",
+      "pass": true
+    },
+    {
+      "test": "gallery 15 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "gallery 15 focus trap",
+      "pass": true
+    },
+    {
+      "test": "gallery 15 image 0",
+      "pass": true
+    },
+    {
+      "test": "gallery 15 image 1",
+      "pass": true
+    },
+    {
+      "test": "gallery 15 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "FAQ 0",
+      "pass": true
+    },
+    {
+      "test": "FAQ 1",
+      "pass": true
+    },
+    {
+      "test": "FAQ 2",
+      "pass": true
+    },
+    {
+      "test": "FAQ 3",
+      "pass": true
+    },
+    {
+      "test": "FAQ 4",
+      "pass": true
+    },
+    {
+      "test": "FAQ 5",
+      "pass": true
+    },
+    {
+      "test": "FAQ 6",
+      "pass": true
+    },
+    {
+      "test": "language switch",
+      "pass": true
+    },
+    {
+      "test": "pt/cookie decline persists",
+      "pass": true
+    },
+    {
+      "test": "pt/cookie accept persists",
+      "pass": true
+    },
+    {
+      "test": "pt/desktop dropdown opens",
+      "pass": true
+    },
+    {
+      "test": "pt/dropdown escape restores focus",
+      "pass": true
+    },
+    {
+      "test": "pt/outside click closes dropdown",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile menu 320",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile accordion 320",
+      "pass": true
+    },
+    {
+      "test": "pt/menu no overflow 320",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile escape 320",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile menu 375",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile accordion 375",
+      "pass": true
+    },
+    {
+      "test": "pt/menu no overflow 375",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile escape 375",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile menu 768",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile accordion 768",
+      "pass": true
+    },
+    {
+      "test": "pt/menu no overflow 768",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile escape 768",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile menu 1024",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile accordion 1024",
+      "pass": true
+    },
+    {
+      "test": "pt/menu no overflow 1024",
+      "pass": true
+    },
+    {
+      "test": "pt/mobile escape 1024",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 0 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 0 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 0 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 0 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 0 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 0 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 0 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 0 image 4",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 0 image 5",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 0 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 1 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 1 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 1 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 1 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 1 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 1 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 1 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 1 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 2 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 2 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 2 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 2 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 2 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 2 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 2 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 2 image 4",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 2 image 5",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 2 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 3 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 3 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 3 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 3 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 3 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 3 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 3 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 4",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 5",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 6",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 7",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 8",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 9",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 10",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 11",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 12",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 13",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 14",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 15",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 16",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 17",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 18",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 image 19",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 4 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 5 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 5 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 5 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 5 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 5 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 5 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 5 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 5 image 4",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 5 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 image 4",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 image 5",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 image 6",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 image 7",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 6 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 7 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 7 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 7 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 7 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 7 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 7 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 7 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 7 image 4",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 7 image 5",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 7 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 8 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 8 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 8 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 8 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 8 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 8 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 8 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 8 image 4",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 8 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 9 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 9 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 9 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 9 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 9 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 9 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 9 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 9 image 4",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 9 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 10 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 10 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 10 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 10 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 10 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 10 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 10 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 11 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 11 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 11 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 11 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 11 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 11 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 11 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 12 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 12 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 12 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 12 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 12 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 12 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 12 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 12 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 13 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 13 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 13 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 13 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 13 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 13 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 13 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 14 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 14 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 14 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 14 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 14 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 14 image 2",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 14 image 3",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 14 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 15 opens",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 15 scroll lock",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 15 focus trap",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 15 image 0",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 15 image 1",
+      "pass": true
+    },
+    {
+      "test": "pt/gallery 15 Escape/focus",
+      "pass": true
+    },
+    {
+      "test": "pt/FAQ 0",
+      "pass": true
+    },
+    {
+      "test": "pt/FAQ 1",
+      "pass": true
+    },
+    {
+      "test": "pt/FAQ 2",
+      "pass": true
+    },
+    {
+      "test": "pt/FAQ 3",
+      "pass": true
+    },
+    {
+      "test": "pt/FAQ 4",
+      "pass": true
+    },
+    {
+      "test": "pt/FAQ 5",
+      "pass": true
+    },
+    {
+      "test": "pt/FAQ 6",
+      "pass": true
+    },
+    {
+      "test": "pt/language switch",
+      "pass": true
+    },
+    {
+      "test": "Unknown route returns 404",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "links": [
+    "/pt/",
+    "/",
+    "/about-us/",
+    "/our-products/",
+    "/our-products/#lower-limb-prosthesis",
+    "/our-products/#upper-limb-prosthesis",
+    "/our-products/#lower-limb-orthosis",
+    "/our-products/#upper-limb-orthosis",
+    "/our-products/#ready-made-items",
+    "/our-products/#special-silicon-solutions",
+    "/our-products/#special-medical-shoes",
+    "/our-products/#mobility-aids",
+    "/patients-we-serve/",
+    "/patients-we-serve/#lower-limb-amputees",
+    "/patients-we-serve/#upper-limb-amputees",
+    "/patients-we-serve/#congenital-disorders",
+    "/patients-we-serve/#neurological-disorders",
+    "/patients-we-serve/#musculoskeletal-disorders",
+    "/patients-we-serve/#diabetic-vascular-foot",
+    "/patients-we-serve/#elderly-mobility-impaired",
+    "/patients-we-serve/#postural-disorders",
+    "/patient-protocol/",
+    "/contact-us/",
+    "/patient-protocol/#registration",
+    "/patient-protocol/#consultation",
+    "/patient-protocol/#casting",
+    "/patient-protocol/#fabrication",
+    "/patient-protocol/#fitting-gait-training",
+    "/patient-protocol/#final-checkout",
+    "/cookies/",
+    "/privacy-policy/",
+    "/pt/about-us/",
+    "/pt/our-products/",
+    "/pt/patients-we-serve/",
+    "/pt/patient-protocol/",
+    "/pt/contact-us/",
+    "/pt/cookies/",
+    "/pt/privacy-policy/",
+    "/pt/our-products/#lower-limb-prosthesis",
+    "/pt/our-products/#upper-limb-prosthesis",
+    "/pt/our-products/#lower-limb-orthosis",
+    "/pt/our-products/#upper-limb-orthosis",
+    "/pt/our-products/#ready-made-items",
+    "/pt/our-products/#special-silicon-solutions",
+    "/pt/our-products/#special-medical-shoes",
+    "/pt/our-products/#mobility-aids",
+    "/pt/patients-we-serve/#lower-limb-amputees",
+    "/pt/patients-we-serve/#upper-limb-amputees",
+    "/pt/patients-we-serve/#congenital-disorders",
+    "/pt/patients-we-serve/#neurological-disorders",
+    "/pt/patients-we-serve/#musculoskeletal-disorders",
+    "/pt/patients-we-serve/#diabetic-vascular-foot",
+    "/pt/patients-we-serve/#elderly-mobility-impaired",
+    "/pt/patients-we-serve/#postural-disorders",
+    "/pt/patient-protocol/#registration",
+    "/pt/patient-protocol/#consultation",
+    "/pt/patient-protocol/#casting",
+    "/pt/patient-protocol/#fabrication",
+    "/pt/patient-protocol/#fitting-gait-training",
+    "/pt/patient-protocol/#final-checkout"
+  ],
+  "assets": [
+    {
+      "path": "/images/patients/asian-male-doctor-in-white-coat-protective-gloves-2024-12-12-23-57-09-utc.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/asian-male-doctor-in-white-coat-protective-gloves-2024-12-12-23-57-09-utc-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/club-foot.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/dysmelia.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/dysmelia-2.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/below-knee.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/above-knee.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/partial-foot.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/knee-disarticulation.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/hip-disarticulation.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/scoliosis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/normal-spine-kyphosis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/crutches.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/walkers-rollators.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/normal-wheelchairs.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/power-wheelchairs.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/charcot-diabetic-foot.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/bed-sores.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/prevention-of-pressure-sores.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image17-1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image18-1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image19-1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image20-1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/cerebral-palsy.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/paralysis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/drop-foot.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image6-1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image7-1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/above-elbow.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/shoulder-disarticulation.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/shoulder-disarticulation-2.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/elbow-crutches.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/walking-frame.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/rollator.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/wheel-chair.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/power-wheelchair.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/power-scooter.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/anti-varus-shoes-for-in-toeing.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/orthotic-corrective-shoes-open-shoes.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/orthotic-corrective-shoes-close-shoes.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/db-shoes-for-club-foot-patients.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/post-operative-cast-shoes.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/diabetic-shoes.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/offloading-shoes-for-fore-foot-wounds.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/offloading-shoes-for-heal-wounds.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/cosmetic-fingers.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/cosmetic-fingers-2.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/cosmetic-gloves.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/cosmetic-feet.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/breast-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/hallux-valgus-splint.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/silicon-insoles.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/ankle-supports.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/knee-supports.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/knee-immobilizer.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/cam-controlled-walker.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/acl-pcl-braces.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/fracture-braces.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/db-shoes-for-club-foot.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/finger-splint.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/finger-immobilizer.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/thumb-immobilizer.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/postural-wrist-hand-support.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/arm-support.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/tennis-elbow-splint.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/lumbo-sacral-support.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/postural-support.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/clavicle-orthosis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/pregnancy-belt.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/philadelphia-collar.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/wrist-hand-orthosis-who.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/arm-humerus-orthosis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/arm-elbow-wrist-hand-orthosis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/ankle-foot-orthosis-afo.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/night-splints.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/afo-for-cp-child.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/knee-ankle-foot-orthosis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/kafo-carbon.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/bilateral-kafo.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/below-elbow-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/below-elbow-prosthes-myo-electric.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/above-elbow-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/shoulder-disarticulation-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/below-knee-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/knee-disarticulation-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/above-knee-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/hip-disarticulation-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/ortho-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/syme-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/lower-limb-prosthesis-.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/upper-limb-prosthesis-.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/lower-limb-orthosis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/upper-limb-orthosis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/ready-made-items.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/special-silicon-solutions.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/special-shoes.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/mobility-aids-.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/img1-enhance.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image11-1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image14-1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image17.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image21.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image24.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/image28.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/protocol/register1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/protocol/register1-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/protocol/register2.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/patient-file.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/patient-file-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/consultation-1024x1024.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/consultation-1024x1024-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/i-3.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/shutterstock-2472676959-2025-03-10-144745-xqft.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/shutterstock-2472676959-2025-03-10-144745-xqft-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/i-1-3.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/s-l1600.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/s-l1600-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/16934799447364-1024x1024.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/16934799447364-1024x1024-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/man-discussing-duolith-shockwave-treatment-for-ed-with-urologist-1024x1024.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/man-discussing-duolith-shockwave-treatment-for-ed-with-urologist-1024x1024-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/about/gty-220926-senior-rehabilitation-800x450.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/about/gty-220926-senior-rehabilitation-800x450-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/brand/logo.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/home/mrdc-1920x1080.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/home/mrdc-1920x1080-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/home/1920x1080-1--lower-limb-prosthesis.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/home/1920x1080-1--lower-limb-prosthesis-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/home/1920x1080-8--special-shoes.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/home/1920x1080-8--special-shoes-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/home/prosthetic-leg-walking-away.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/home/prosthetic-leg-walking-away-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/home/bg.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/home/bg-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/about/about-bg.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/about/about-bg-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/about/handsome-young-man-sitting-on-the-medical-bed-2024-10-16-23-23-08-utc-scaled.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/about/handsome-young-man-sitting-on-the-medical-bed-2024-10-16-23-23-08-utc-scaled-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/about/who-we-serve.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/about/who-we-serve-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/ornament-curly-1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/patients/ornament-curly-1-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/protocol/image1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/protocol/image1-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/contact/header-contact.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/contact/header-contact-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/about/about-bg-1.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/about/about-bg-1-640.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/2e111f5db3ffe153ecf7d1a1a5b7a06ff6b25946.webp",
+      "status": 200
+    },
+    {
+      "path": "/images/products/2e111f5db3ffe153ecf7d1a1a5b7a06ff6b25946-640.webp",
+      "status": 200
+    }
+  ]
+}

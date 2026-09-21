@@ -1,0 +1,19 @@
+---
+import Picture from "../ui/Picture.astro";
+const {
+  title,
+  subtitle,
+  image = "about-bg.jpg",
+  home = false,
+  lines = [],
+} = Astro.props;
+---
+
+<section class:list={["page-hero", { "home-hero": home }]}>
+  <Picture name={image} alt="" eager class="hero-image" sizes="100vw" />
+  <div class="hero-shade"></div>
+  <div class="hero-content">
+    <h1>{home ? lines.map((line: string) => <span>{line}</span>) : title}</h1>
+    {subtitle && <p>{subtitle}</p>}
+  </div>
+</section>

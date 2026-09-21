@@ -1,0 +1,30 @@
+---
+import { asset } from "../../data/content";
+const {
+  name,
+  alt = "",
+  class: className = "",
+  eager = false,
+  sizes = "(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 600px",
+} = Astro.props;
+const image = asset(name);
+---
+
+{image && (
+  <img
+    src={image.local}
+    srcset={
+      image.small
+        ? `${image.small} 640w, ${image.local} ${image.width}w`
+        : undefined
+    }
+    sizes={sizes}
+    width={image.width}
+    height={image.height}
+    alt={alt}
+    class={className}
+    loading={eager ? "eager" : "lazy"}
+    decoding="async"
+    fetchpriority={eager ? "high" : undefined}
+  />
+)}

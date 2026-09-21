@@ -1,0 +1,17 @@
+---
+const { blocks = [] } = Astro.props;
+---
+
+<div class="prose">
+  {blocks.map((b: any) =>
+    b.tag === "ul" || b.tag === "ol" ? (
+      <ul>
+        {b.items?.map((item: string) => (
+          <li>{item}</li>
+        ))}
+      </ul>
+    ) : (
+      <p>{b.text}</p>
+    ),
+  )}
+</div>

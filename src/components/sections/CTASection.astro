@@ -1,0 +1,18 @@
+---
+import { ui } from "../../data/translations";
+import { href } from "../../data/site-config";
+const { lang = "en" } = Astro.props;
+const t = ui[lang];
+---
+
+<section class="cta">
+  <div class="container flex flex-wrap items-center justify-between gap-8">
+    <div>
+      <h2>{t.journey}</h2>
+      <p>{t.journeyText}</p>
+    </div>
+    <a class="button light" href={href(lang, "contact-us")}>
+      {t.book} <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+</section>

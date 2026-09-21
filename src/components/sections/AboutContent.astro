@@ -1,0 +1,75 @@
+---
+import { content } from "../../data/content";
+import Picture from "../ui/Picture.astro";
+import RichText from "../ui/RichText.astro";
+import Icon from "../ui/Icon.astro";
+const { lang = "en" } = Astro.props;
+const s = content[lang].about;
+---
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <h2>{s[1].title}</h2>
+      <RichText blocks={s[1].blocks} />
+    </div>
+    <Picture
+      name="gty_220926_senior_rehabilitation_800x450.webp"
+      alt={
+        lang === "en"
+          ? "An older adult receiving rehabilitation support"
+          : "Pessoa idosa recebendo apoio de reabilitação"
+      }
+      class="rounded-image"
+    />
+  </div>
+</section>
+<section class="section philosophy">
+  <div class="container split">
+    <div>
+      <h2>{s[2].title}</h2>
+      <h3>{s[3].title}</h3>
+      <!-- Approved therapist credentials and philosophy copy are requested in CONTENT_REVIEW.md. -->
+    </div>
+    <RichText blocks={s[2].blocks} />
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <h2 class="center-title">{s[4].title}</h2>
+    <div class="feature-grid">
+      {s.slice(5, 9).map((item, i) => (
+        <article>
+          <span class="feature-icon">
+            <Icon name={["chat", "arrow", "phone", "pin"][i]} size={28} />
+          </span>
+          <h3>{item.title}</h3>
+          <RichText blocks={item.blocks} />
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+<section class="section community-section">
+  <div class="container split">
+    <div>
+      <h2>{s[9].title}</h2>
+      <RichText blocks={s[9].blocks} />
+    </div>
+    <Picture
+      name="register2.webp"
+      alt={
+        lang === "en"
+          ? "MRDC patient reception"
+          : "Recepção de pacientes do MRDC"
+      }
+      class="rounded-image"
+    />
+  </div>
+</section>
+<section class="section team-section">
+  <div class="container narrow">
+    <h2>{s[10].title}</h2>
+    <RichText blocks={s[10].blocks.filter((b) => b.tag === "p")} />
+  </div>
+</section>

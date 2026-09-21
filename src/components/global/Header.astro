@@ -1,0 +1,89 @@
+---
+import { site, routes, href } from "../../data/site-config";
+import { ui } from "../../data/translations";
+import { content } from "../../data/content";
+import Picture from "../ui/Picture.astro";
+import Icon from "../ui/Icon.astro";
+const { lang = "en", route = "" } = Astro.props;
+const t = ui[lang];
+const d = content[lang];
+---
+
+<a class="skip-link" href="#main">
+  {t.skip}
+</a>
+<div class="topbar">
+  <div class="container flex items-center justify-between gap-3">
+    <div class="contact-mini flex flex-wrap gap-4">
+      <a href={`tel:${site.tel}`}>{site.phone}</a>
+      <a href={`mailto:${site.email}`}>{site.email}</a>
+    </div>
+    <div class="flex items-center gap-4">
+      <a
+        class="language"
+        href={href(lang === "en" ? "pt" : "en", route)}
+        lang={lang === "en" ? "pt" : "en"}
+        hreflang={lang === "en" ? "pt" : "en"}
+      >
+        {lang === "en" ? "Português" : "English"}
+      </a>
+      <a class="social" href={site.facebook} aria-label="Facebook">
+        <Icon name="facebook" size={18} />
+      </a>
+      <a class="social" href={site.instagram} aria-label="Instagram">
+        <Icon name="instagram" size={18} />
+      </a>
+    </div>
+  </div>
+</div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href={href(lang)} class="logo" aria-label="MRDC — Home">
+      <Picture
+        name="Logo.png"
+        alt="Mozambique Rehabilitation and Diagnostic Center"
+        eager
+      />
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">
+      <Icon name="menu" />
+      {t.menu}
+    </button>
+    <nav id="main-nav" aria-label={t.menu}>
+      <ul class="nav-list">
+        {routes.slice(0, 6).map((r, i) => (
+          <li class:list={["nav-item", { "has-dropdown": i === 2 || i === 3 }]}>
+            <div class="nav-link-row">
+              <a
+                href={href(lang, r)}
+                aria-current={route === r ? "page" : undefined}
+                class:list={[{ "contact-button": i === 5 }]}
+              >
+                {t.nav[i]}
+              </a>
+              {(i === 2 || i === 3) && (
+                <button
+                  class="dropdown-toggle"
+                  aria-label={`${t.nav[i]} — ${t.menu}`}
+                  aria-expanded="false"
+                  aria-controls={`dropdown-${i}`}
+                >
+                  <Icon name="chevron" size={15} />
+                </button>
+              )}
+            </div>
+            {(i === 2 || i === 3) && (
+              <ul class="dropdown" id={`dropdown-${i}`} hidden>
+                {(i === 2 ? d.products : d.patients).map((item) => (
+                  <li>
+                    <a href={`${href(lang, r)}#${item.slug}`}>{item.title}</a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>

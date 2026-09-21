@@ -1,0 +1,48 @@
+---
+import { site } from "../../data/site-config";
+import { ui } from "../../data/translations";
+import { content } from "../../data/content";
+import Icon from "../ui/Icon.astro";
+const { lang = "en" } = Astro.props;
+const t = ui[lang];
+---
+
+<section class="section contact-panel">
+  <div class="container split">
+    <div>
+      <span class="eyebrow">MRDC · MAPUTO</span>
+      <h2>{t.contact}</h2>
+      <p>{content[lang].home[29].blocks[0]?.text}</p>
+    </div>
+    <div class="contact-details">
+      {[
+        { icon: "pin", title: t.address, text: site.address },
+        {
+          icon: "mail",
+          title: t.email,
+          text: site.email,
+          url: `mailto:${site.email}`,
+        },
+        {
+          icon: "phone",
+          title: t.phone,
+          text: site.phone,
+          url: `tel:${site.tel}`,
+        },
+      ].map((i) => (
+        <div class="contact-row">
+          <span class="contact-icon">
+            <Icon name={i.icon} />
+          </span>
+          <div>
+            <h3>{i.title}</h3>
+            {i.url ? <a href={i.url}>{i.text}</a> : <p>{i.text}</p>}
+          </div>
+        </div>
+      ))}
+      <a class="text-link" href={site.whatsapp}>
+        WhatsApp <Icon />
+      </a>
+    </div>
+  </div>
+</section>

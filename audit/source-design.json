@@ -1,0 +1,90 @@
+[
+  {
+    "route": "",
+    "faq": [
+      {
+        "text": "\nWhat types of prosthetic limbs do you provide?\n\n\n",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(103, 148, 193)"
+      },
+      {
+        "text": "\nHow long does prosthetic fitting take?\n\n\n",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(103, 148, 193)"
+      },
+      {
+        "text": "\nHow does MRDC support children with Cerebral Palsy?\n\n\n",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(103, 148, 193)"
+      },
+      {
+        "text": "\nHow does MRDC help children with Club Foot?\n\n\n",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(103, 148, 193)"
+      },
+      {
+        "text": "\nDoes MRDC provide accommodation for patients?\n\n\n",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(103, 148, 193)"
+      },
+      {
+        "text": "\nDoes MRDC offer medical or surgical treatment?\n\n\n",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(103, 148, 193)"
+      },
+      {
+        "text": "\nAre prosthetic devices provided free of cost?\n\n\n",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(103, 148, 193)"
+      }
+    ],
+    "backgrounds": [
+      "url(\"https://mrdc.co.mz/wp-content/uploads/2025/10/prosthetic-leg-walking-away.png\")"
+    ],
+    "maps": []
+  },
+  {
+    "route": "about-us/",
+    "faq": [],
+    "backgrounds": [
+      "url(\"https://mrdc.co.mz/wp-content/uploads/2025/10/gty_220926_senior_rehabilitation_800x450.webp\")"
+    ],
+    "maps": []
+  },
+  {
+    "route": "our-products/",
+    "faq": [],
+    "backgrounds": [
+      "url(\"http://mrdc.co.mz/wp-content/uploads/2025/11/2e111f5db3ffe153ecf7d1a1a5b7a06ff6b25946.jpg\")",
+      "url(\"http://mrdc.co.mz/wp-content/uploads/2025/10/bg.png\")"
+    ],
+    "maps": []
+  },
+  {
+    "route": "patients-we-serve/",
+    "faq": [],
+    "backgrounds": [
+      "url(\"https://mrdc.co.mz/wp-content/uploads/2025/10/who-we-serve.webp\")"
+    ],
+    "maps": []
+  },
+  {
+    "route": "patient-protocol/",
+    "faq": [],
+    "backgrounds": [
+      "url(\"https://mrdc.co.mz/wp-content/uploads/2025/11/image1.png\")",
+      "url(\"https://mrdc.co.mz/wp-content/uploads/2025/10/about-bg.jpg\")"
+    ],
+    "maps": []
+  },
+  {
+    "route": "contact-us/",
+    "faq": [],
+    "backgrounds": [
+      "url(\"https://mrdc.co.mz/wp-content/uploads/2025/11/header_contact.jpg\")"
+    ],
+    "maps": [
+      "about:blank"
+    ]
+  }
+]

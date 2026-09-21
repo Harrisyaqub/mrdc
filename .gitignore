@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+audit/*.html
+audit/extracted/
+audit/originals/
+audit/tools/
+.env*
