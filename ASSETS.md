@@ -1,5 +1,21 @@
 # Migrated MRDC assets
 
+## Client facility photographs — 25 September 2026
+
+Seven supplied JPEGs are now served as local WebP images with 640px responsive variants. Originals remain unchanged in Downloads. Their provenance and dimensions are recorded in `src/data/facility-images.json`, separately from the WordPress asset inventory.
+
+| Supplied photograph | Website placement in English and Portuguese |
+| --- | --- |
+| MRDC front view.jpeg | Homepage hero and social-sharing preview |
+| Orthopaedic Prostheses.jpeg | Products page hero |
+| Orthopaedic Workshop.jpeg | Protocol: Modification, Fabrication & Alignment |
+| casting room.jpeg | Protocol: Casting |
+| consultation room.jpeg | Protocol: Consultation |
+| patient areas.jpeg | Patients page introduction |
+| Recepction.jpeg | Contact hero, About reception image, Protocol registration |
+
+Desktop homepage framing was made taller to show the building lettering. Portrait photos retain their full framing in content sections.
+
 128 source images downloaded and optimized to WebP, including transparent illustrations. Smaller responsive variants are included where useful. Original URLs were normalized to HTTPS.
 
 Local fonts: DM Sans, Darker Grotesque, Roboto (WOFF2 Latin subsets).

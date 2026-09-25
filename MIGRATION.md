@@ -29,7 +29,7 @@ Configure the eventual host to serve directory `index.html` files and the custom
 
 ## Old popup-link replacement
 
-Fragments never reach an HTTP server, so these are content-link replacements, not HTTP redirects. The new navigation uses stable category anchors and semantic dialog buttons. Prefix destinations with `/pt` for Portuguese.
+Fragments never reach an HTTP server, so these are content-link replacements, not HTTP redirects. Products and Patients dropdown items now open their matching dialog directly on the current page. The stable category-anchor links below remain as a no-JavaScript and modified/new-tab-click fallback. Prefix destinations with `/pt` for Portuguese.
 
 | Old fragment | New destination |
 | --- | --- |

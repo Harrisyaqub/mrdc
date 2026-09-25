@@ -1,0 +1,90 @@
+[
+  {
+    "source": "C:/Users/devmo/Downloads/MRDC Images/MRDC Images/MRDC front view.jpeg",
+    "local": "/images/facility/mrdc-front-view.webp",
+    "small": "/images/facility/mrdc-front-view-640.webp",
+    "width": 1247,
+    "height": 1024,
+    "description": "MRDC building exterior",
+    "pages": [
+      "/",
+      "/pt/"
+    ]
+  },
+  {
+    "source": "C:/Users/devmo/Downloads/MRDC Images/MRDC Images/Orthopaedic Prostheses.jpeg",
+    "local": "/images/facility/orthopaedic-prostheses.webp",
+    "small": "/images/facility/orthopaedic-prostheses-640.webp",
+    "width": 1600,
+    "height": 1014,
+    "description": "Prosthetic limbs and components at MRDC",
+    "pages": [
+      "/our-products/",
+      "/pt/our-products/"
+    ]
+  },
+  {
+    "source": "C:/Users/devmo/Downloads/MRDC Images/MRDC Images/Orthopaedic Workshop.jpeg",
+    "local": "/images/facility/orthopaedic-workshop.webp",
+    "small": "/images/facility/orthopaedic-workshop-640.webp",
+    "width": 1600,
+    "height": 1066,
+    "description": "MRDC orthopaedic workshop",
+    "pages": [
+      "/patient-protocol/",
+      "/pt/patient-protocol/"
+    ]
+  },
+  {
+    "source": "C:/Users/devmo/Downloads/MRDC Images/MRDC Images/casting room.jpeg",
+    "local": "/images/facility/casting-room.webp",
+    "small": "/images/facility/casting-room-640.webp",
+    "width": 1066,
+    "height": 1600,
+    "description": "MRDC casting room",
+    "pages": [
+      "/patient-protocol/",
+      "/pt/patient-protocol/"
+    ]
+  },
+  {
+    "source": "C:/Users/devmo/Downloads/MRDC Images/MRDC Images/consultation room.jpeg",
+    "local": "/images/facility/consultation-room.webp",
+    "small": "/images/facility/consultation-room-640.webp",
+    "width": 1600,
+    "height": 1066,
+    "description": "MRDC consultation room",
+    "pages": [
+      "/patient-protocol/",
+      "/pt/patient-protocol/"
+    ]
+  },
+  {
+    "source": "C:/Users/devmo/Downloads/MRDC Images/MRDC Images/patient areas.jpeg",
+    "local": "/images/facility/patient-areas.webp",
+    "small": "/images/facility/patient-areas-640.webp",
+    "width": 1066,
+    "height": 1600,
+    "description": "MRDC patient corridor and treatment-room entrances",
+    "pages": [
+      "/patients-we-serve/",
+      "/pt/patients-we-serve/"
+    ]
+  },
+  {
+    "source": "C:/Users/devmo/Downloads/MRDC Images/MRDC Images/Recepction.jpeg",
+    "local": "/images/facility/reception.webp",
+    "small": "/images/facility/reception-640.webp",
+    "width": 1600,
+    "height": 1066,
+    "description": "MRDC reception and waiting area",
+    "pages": [
+      "/contact-us/",
+      "/pt/contact-us/",
+      "/about-us/",
+      "/pt/about-us/",
+      "/patient-protocol/",
+      "/pt/patient-protocol/"
+    ]
+  }
+]

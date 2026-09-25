@@ -1,9 +1,7 @@
 ---
 import Picture from "../ui/Picture.astro";
 import Icon from "../ui/Icon.astro";
-import { ui } from "../../data/translations";
 const { items, kind = "products", lang = "en" } = Astro.props;
-const t = ui[lang];
 ---
 
 <div class:list={["card-grid", kind]}>
@@ -28,39 +26,3 @@ const t = ui[lang];
     </article>
   ))}
 </div>
-{items.map((item: any) => (
-  <dialog
-    class="gallery-modal"
-    id={`modal-${item.slug}`}
-    aria-labelledby={`title-${item.slug}`}
-  >
-    <div class="modal-top">
-      <h2 id={`title-${item.slug}`}>{item.title}</h2>
-      <button class="icon-button modal-close" aria-label={t.close} autofocus>
-        <Icon name="close" />
-      </button>
-    </div>
-    <div class="slides">
-      {item.slides.map((slide: any, i: number) => (
-        <figure class="slide" hidden={i !== 0}>
-          <Picture
-            name={slide.url}
-            alt={slide.caption || slide.alt || item.title}
-          />
-          <figcaption>{slide.caption.replace(/\.webp$/, "")}</figcaption>
-        </figure>
-      ))}
-    </div>
-    <div class="gallery-controls">
-      <button class="button outline" data-slide="-1" aria-label={t.previous}>
-        ←
-      </button>
-      <span class="slide-status" aria-live="polite">
-        1 / {item.slides.length}
-      </span>
-      <button class="button outline" data-slide="1" aria-label={t.next}>
-        →
-      </button>
-    </div>
-  </dialog>
-))}

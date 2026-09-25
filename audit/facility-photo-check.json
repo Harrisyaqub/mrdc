@@ -1,0 +1,221 @@
+{
+  "checks": [
+    {
+      "route": "/",
+      "width": 375,
+      "name": "mrdc-front-view",
+      "loaded": true
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "name": "mrdc-front-view",
+      "loaded": true
+    },
+    {
+      "route": "/our-products/",
+      "width": 375,
+      "name": "orthopaedic-prostheses",
+      "loaded": true
+    },
+    {
+      "route": "/our-products/",
+      "width": 1440,
+      "name": "orthopaedic-prostheses",
+      "loaded": true
+    },
+    {
+      "route": "/patients-we-serve/",
+      "width": 375,
+      "name": "patient-areas",
+      "loaded": true
+    },
+    {
+      "route": "/patients-we-serve/",
+      "width": 1440,
+      "name": "patient-areas",
+      "loaded": true
+    },
+    {
+      "route": "/contact-us/",
+      "width": 375,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/contact-us/",
+      "width": 1440,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/about-us/",
+      "width": 375,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/about-us/",
+      "width": 1440,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/patient-protocol/",
+      "width": 375,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/patient-protocol/",
+      "width": 375,
+      "name": "consultation-room",
+      "loaded": true
+    },
+    {
+      "route": "/patient-protocol/",
+      "width": 375,
+      "name": "casting-room",
+      "loaded": true
+    },
+    {
+      "route": "/patient-protocol/",
+      "width": 375,
+      "name": "orthopaedic-workshop",
+      "loaded": true
+    },
+    {
+      "route": "/patient-protocol/",
+      "width": 1440,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/patient-protocol/",
+      "width": 1440,
+      "name": "consultation-room",
+      "loaded": true
+    },
+    {
+      "route": "/patient-protocol/",
+      "width": 1440,
+      "name": "casting-room",
+      "loaded": true
+    },
+    {
+      "route": "/patient-protocol/",
+      "width": 1440,
+      "name": "orthopaedic-workshop",
+      "loaded": true
+    },
+    {
+      "route": "/pt/",
+      "width": 375,
+      "name": "mrdc-front-view",
+      "loaded": true
+    },
+    {
+      "route": "/pt/",
+      "width": 1440,
+      "name": "mrdc-front-view",
+      "loaded": true
+    },
+    {
+      "route": "/pt/our-products/",
+      "width": 375,
+      "name": "orthopaedic-prostheses",
+      "loaded": true
+    },
+    {
+      "route": "/pt/our-products/",
+      "width": 1440,
+      "name": "orthopaedic-prostheses",
+      "loaded": true
+    },
+    {
+      "route": "/pt/patients-we-serve/",
+      "width": 375,
+      "name": "patient-areas",
+      "loaded": true
+    },
+    {
+      "route": "/pt/patients-we-serve/",
+      "width": 1440,
+      "name": "patient-areas",
+      "loaded": true
+    },
+    {
+      "route": "/pt/contact-us/",
+      "width": 375,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/pt/contact-us/",
+      "width": 1440,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/pt/about-us/",
+      "width": 375,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/pt/about-us/",
+      "width": 1440,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/pt/patient-protocol/",
+      "width": 375,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/pt/patient-protocol/",
+      "width": 375,
+      "name": "consultation-room",
+      "loaded": true
+    },
+    {
+      "route": "/pt/patient-protocol/",
+      "width": 375,
+      "name": "casting-room",
+      "loaded": true
+    },
+    {
+      "route": "/pt/patient-protocol/",
+      "width": 375,
+      "name": "orthopaedic-workshop",
+      "loaded": true
+    },
+    {
+      "route": "/pt/patient-protocol/",
+      "width": 1440,
+      "name": "reception",
+      "loaded": true
+    },
+    {
+      "route": "/pt/patient-protocol/",
+      "width": 1440,
+      "name": "consultation-room",
+      "loaded": true
+    },
+    {
+      "route": "/pt/patient-protocol/",
+      "width": 1440,
+      "name": "casting-room",
+      "loaded": true
+    },
+    {
+      "route": "/pt/patient-protocol/",
+      "width": 1440,
+      "name": "orthopaedic-workshop",
+      "loaded": true
+    }
+  ],
+  "errors": []
+}

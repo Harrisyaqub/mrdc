@@ -62,8 +62,20 @@ document.querySelectorAll<HTMLDialogElement>("dialog").forEach((dialog) => {
   document
     .querySelectorAll<HTMLElement>(`[data-modal="${dialog.id}"]`)
     .forEach((button) =>
-      button.addEventListener("click", () => {
+      button.addEventListener("click", (event) => {
+        // Keep normal link behavior for new-tab/modified clicks.
+        if (button instanceof HTMLAnchorElement &&
+            (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)) return;
+        event.preventDefault();
         trigger = button;
+        if (button.closest("#main-nav")) {
+          trigger = menuButton?.getAttribute("aria-expanded") === "true"
+            ? menuButton
+            : button.closest(".has-dropdown")?.querySelector<HTMLElement>(".dropdown-toggle") || button;
+          closeDropdowns();
+          nav?.classList.remove("is-open");
+          menuButton?.setAttribute("aria-expanded", "false");
+        }
         show(0);
         dialog.showModal();
         document.body.classList.add("modal-open");
@@ -86,7 +98,7 @@ document.querySelectorAll<HTMLDialogElement>("dialog").forEach((dialog) => {
   });
   dialog.addEventListener("close", () => {
     document.body.classList.remove("modal-open");
-    trigger?.focus();
+    trigger?.focus({ preventScroll: true });
   });
   dialog
     .querySelectorAll<HTMLButtonElement>("[data-slide]")

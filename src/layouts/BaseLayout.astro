@@ -4,11 +4,12 @@ import Header from "../components/global/Header.astro";
 import Footer from "../components/global/Footer.astro";
 import { site, href, routes } from "../data/site-config";
 import { ui } from "../data/translations";
-import { asset } from "../data/content";
+import { asset, content } from "../data/content";
+import GalleryDialogs from "../components/sections/GalleryDialogs.astro";
 const { lang = "en", route = "", title, description } = Astro.props;
 const canonical = site.url + href(lang, route);
 const logo = asset("Logo.png");
-const og = asset("MRDC_1920x1080.jpg");
+const og = asset("MRDC front view.jpeg");
 const organization = {
   "@context": "https://schema.org",
   "@type": "MedicalOrganization",
@@ -91,6 +92,7 @@ const breadcrumb = {
       <slot />
     </main>
     <Footer lang={lang} />
+    <GalleryDialogs lang={lang} items={[...content[lang].products, ...content[lang].patients]} />
     <script>
       import "../scripts/interactions";
     </script>

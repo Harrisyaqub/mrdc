@@ -1217,6 +1217,24 @@ button {
   height: 100%;
   font-size: inherit;
 }
+
+/* Preserve useful framing in the client-supplied facility photographs. */
+.home-hero .hero-image {
+  object-position: center 20%;
+}
+@media (min-width: 768px) {
+  .home-hero {
+    min-height: 520px;
+  }
+}
+.hero-image[src*="orthopaedic-prostheses"] {
+  object-position: center 80%;
+}
+.rounded-image[src*="patient-areas"],
+.protocol-step img[src*="casting-room"] {
+  object-fit: contain;
+  background: var(--pale);
+}
 .card-title {
   font-family: var(--font-heading);
   font-weight: 700;

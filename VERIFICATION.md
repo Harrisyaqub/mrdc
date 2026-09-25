@@ -1,5 +1,9 @@
 # Verification — MRDC migration
 
+## Facility photo update — 25 September 2026
+
+All seven supplied facility photographs were integrated into matching sections in both languages. Production build and static output checks pass (17 pages, 17 unique titles, no output errors). A focused browser check verified 36 image placements at 375px and 1440px: all images decoded successfully, no horizontal overflow and no browser errors. Evidence: `audit/facility-photo-check.json` and `audit/facility-*.png`. Previous Lighthouse scores below describe the earlier migration build; Lighthouse was not rerun for this image-only update.
+
 Tested locally on 21 September 2026 against the static production preview at `http://127.0.0.1:4322/`.
 
 ## Build and page coverage

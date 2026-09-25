@@ -62,7 +62,7 @@ const description = (
         home
         lines={t.hero}
         subtitle={d.home[0].blocks[0].text}
-        image="MRDC_1920x1080.jpg"
+        image="MRDC front view.jpeg"
       />
       <section class="section intro-section">
         <div class="container split">
@@ -92,13 +92,13 @@ const description = (
       subtitle={subtitle}
       image={
         route === "contact-us"
-          ? "header_contact.jpg"
+          ? "Recepction.jpeg"
           : route === "patient-protocol"
             ? "image1.png"
             : route === "patients-we-serve"
               ? "who-we-serve.webp"
               : route === "our-products"
-                ? "2e111f5db3ffe153ecf7d1a1a5b7a06ff6b25946.jpg"
+                ? "Orthopaedic Prostheses.jpeg"
                 : "about-bg-1.webp"
       }
     />
@@ -146,11 +146,11 @@ const description = (
             <RichText blocks={d.patientPage[1].blocks} />
           </div>
           <Picture
-            name="who-we-serve.webp"
+            name="patient areas.jpeg"
             alt={
               lang === "en"
-                ? "Rehabilitation and mobility support"
-                : "Reabilitação e apoio à mobilidade"
+                ? "MRDC patient corridor with entrances to consultation and treatment rooms"
+                : "Corredor de pacientes do MRDC com acesso às salas de consulta e tratamento"
             }
             class="rounded-image"
           />

@@ -76,7 +76,11 @@ const d = content[lang];
               <ul class="dropdown" id={`dropdown-${i}`} hidden>
                 {(i === 2 ? d.products : d.patients).map((item) => (
                   <li>
-                    <a href={`${href(lang, r)}#${item.slug}`}>{item.title}</a>
+                    <a
+                      href={`${href(lang, r)}#${item.slug}`}
+                      data-modal={`modal-${item.slug}`}
+                      aria-haspopup="dialog"
+                    >{item.title}</a>
                   </li>
                 ))}
               </ul>
