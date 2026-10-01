@@ -20,6 +20,8 @@ Production output: `dist/`. Preview: http://127.0.0.1:4322/. `npm.cmd` avoids th
 
 ## Handoff
 
+The homepage gallery reads all images in `public/images/gallery` at build time. After adding or replacing photos, run `node scripts/prepare-home-gallery.mjs` to refresh optimized WebP copies, then build. Original photos remain unchanged. The gallery shows four photos on desktop, two on tablets, and one on phones, with arrows, swipe scrolling and keyboard navigation.
+
 - [Migration and all 16 routes](MIGRATION.md)
 - [Content requiring client review](CONTENT_REVIEW.md)
 - [Downloaded asset inventory](ASSETS.md)

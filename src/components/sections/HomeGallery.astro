@@ -1,0 +1,66 @@
+---
+import {getGallery} from '../../data/gallery';
+const {lang = 'en'} = Astro.props;
+const photos = await getGallery(lang);
+const title = lang === 'pt' ? 'Galeria' : 'Gallery';
+---
+{photos.length > 0 && <section class="section home-gallery" aria-labelledby="home-gallery-title">
+  <div class="container">
+    <div class="gallery-heading">
+      <h2 id="home-gallery-title">{title}</h2>
+      <div class="gallery-arrows" hidden>
+        <button class="button outline" data-gallery-direction="-1" aria-controls="home-gallery-track" aria-label={lang === 'pt' ? 'Fotos anteriores' : 'Previous photos'}>←</button>
+        <button class="button outline" data-gallery-direction="1" aria-controls="home-gallery-track" aria-label={lang === 'pt' ? 'Próximas fotos' : 'Next photos'}>→</button>
+      </div>
+    </div>
+    <div class="home-gallery-track" id="home-gallery-track" tabindex="0" role="region" aria-label={lang === 'pt' ? 'Fotos das instalações do MRDC' : 'MRDC facility photos'}>
+      {photos.map((photo,i) => <figure class="home-gallery-photo" role="group" aria-label={`${i+1} / ${photos.length}`}>
+        <img src={photo.src} width={photo.width} height={photo.height} alt={photo.alt} loading="lazy" decoding="async" />
+      </figure>)}
+    </div>
+    <p class="gallery-range" aria-live="polite" aria-atomic="true"></p>
+  </div>
+</section>}
+
+<script>
+  document.querySelectorAll<HTMLElement>('.home-gallery').forEach(section => {
+    const track = section.querySelector<HTMLElement>('.home-gallery-track')!;
+    const slides = [...track.querySelectorAll<HTMLElement>('.home-gallery-photo')];
+    const buttons = [...section.querySelectorAll<HTMLButtonElement>('[data-gallery-direction]')];
+    section.querySelector<HTMLElement>('.gallery-arrows')!.hidden = false;
+    const update = () => {
+      const bounds = track.getBoundingClientRect();
+      const visible = slides.map((slide,i) => ({i,rect:slide.getBoundingClientRect()})).filter(({rect}) => rect.left >= bounds.left - 2 && rect.right <= bounds.right + 2);
+      buttons[0].disabled = track.scrollLeft < 2;
+      buttons[1].disabled = track.scrollLeft >= track.scrollWidth - track.clientWidth - 2;
+      if (visible.length) section.querySelector('.gallery-range')!.textContent = `${visible[0].i+1}–${visible.at(-1)!.i+1} / ${slides.length}`;
+    };
+    const move = (direction:number) => {
+      const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+      const step = slides[0].getBoundingClientRect().width + gap;
+      const count = Math.max(1,Math.round((track.clientWidth + gap) / step));
+      const start = Math.round(track.scrollLeft / step);
+      track.scrollTo({left: Math.max(0,Math.min(slides.length-count,start+direction*count))*step, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth'});
+    };
+    buttons.forEach(button => button.addEventListener('click', () => move(Number(button.dataset.galleryDirection))));
+    track.addEventListener('keydown', event => {if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {event.preventDefault();move(event.key === 'ArrowLeft' ? -1 : 1)}});
+    let timer: ReturnType<typeof setTimeout>;
+    track.addEventListener('scroll', () => {clearTimeout(timer);timer=setTimeout(update,120)});
+    new ResizeObserver(update).observe(track);
+    update();
+  });
+</script>
+
+<style>
+  .gallery-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:28px}
+  .gallery-heading h2{margin:0}
+  .gallery-arrows{display:flex;gap:12px}
+  .gallery-arrows button{min-width:48px;font-size:22px;padding:7px 14px}
+  .gallery-arrows button:disabled{opacity:.4}
+  .home-gallery-track{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:thin;scrollbar-color:var(--primary) var(--pale);padding-bottom:14px}
+  .home-gallery-photo{margin:0;flex:0 0 calc((100% - 72px)/4);min-width:0;scroll-snap-align:start;border-radius:16px;overflow:hidden;background:var(--pale)}
+  .home-gallery-photo img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}
+  .gallery-range{text-align:center;color:var(--primary);font-size:14px;min-height:24px;margin:12px 0 0}
+  @media(max-width:1023px){.home-gallery-photo{flex-basis:calc((100% - 24px)/2)}}
+  @media(max-width:639px){.home-gallery-photo{flex-basis:100%}}
+</style>

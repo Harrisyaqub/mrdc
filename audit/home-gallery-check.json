@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "width": 1440,
+      "visible": 4,
+      "photos": 29,
+      "moves": 7
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "visible": 2,
+      "photos": 29,
+      "moves": 14
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "visible": 1,
+      "photos": 29,
+      "moves": 28
+    },
+    {
+      "route": "/pt/",
+      "width": 1440,
+      "visible": 4,
+      "photos": 29,
+      "moves": 7
+    },
+    {
+      "route": "/pt/",
+      "width": 768,
+      "visible": 2,
+      "photos": 29,
+      "moves": 14
+    },
+    {
+      "route": "/pt/",
+      "width": 375,
+      "visible": 1,
+      "photos": 29,
+      "moves": 28
+    }
+  ],
+  "errors": []
+}
