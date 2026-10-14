@@ -350,7 +350,7 @@ button {
   color: white;
 }
 .hero-content p {
-  max-width: 900px;
+  max-width: 700px;
   color: white;
   margin-inline: auto;
 }
@@ -1222,10 +1222,9 @@ button {
 .home-hero .hero-image {
   object-position: center 20%;
 }
-@media (min-width: 768px) {
-  .home-hero {
-    min-height: 520px;
-  }
+.home-hero {
+  height: 750px;
+  min-height: 750px;
 }
 .hero-image[src*="orthopaedic-prostheses"] {
   object-position: center 80%;
