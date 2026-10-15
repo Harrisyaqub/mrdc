@@ -2,6 +2,7 @@ import sourceData from "./content.json";
 import images from "./image-sources.json";
 import facilityImages from "./facility-images.json";
 import readyMadeImages from "./ready-made-images.json";
+import mobilityAidImages from "./mobility-aid-images.json";
 // Avoid mutating the cached JSON module when development reloads this file.
 const data = structuredClone(sourceData);
 // Keep client-supplied photos separate from regeneratable WordPress source data.
@@ -12,6 +13,12 @@ const protocolPhotos = {
   fabrication: "Orthopaedic Workshop.jpeg",
 };
 for (const lang of ["en", "pt"] as const) {
+  const mobilityAids = data[lang].products.find((item) => item.slug === "mobility-aids");
+  mobilityAids?.slides.push(...mobilityAidImages.map((image) => ({
+    url: image.source,
+    alt: image.caption,
+    caption: image.caption,
+  })));
   const readyMade = data[lang].products.find((item) => item.slug === "ready-made-items");
   if (readyMade) readyMade.slides = readyMadeImages.map((image) => ({
     url: image.source,
@@ -25,7 +32,7 @@ for (const lang of ["en", "pt"] as const) {
 }
 export const content = data;
 export const asset = (name: string) =>
-  [...readyMadeImages, ...facilityImages, ...images].find(
+  [...readyMadeImages, ...mobilityAidImages, ...facilityImages, ...images].find(
     (i) =>
       i.source === name || decodeURIComponent(i.source).endsWith("/" + name),
   );
