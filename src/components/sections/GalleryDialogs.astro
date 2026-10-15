@@ -25,7 +25,10 @@ const t = ui[lang];
             name={slide.url}
             alt={slide.caption || slide.alt || item.title}
           />
-          <figcaption>{slide.caption.replace(/\.webp$/, "")}</figcaption>
+          <figcaption>
+            {slide.caption.replace(/\.webp$/, "")}
+            {slide.size && <span class="product-size">{slide.size}</span>}
+          </figcaption>
         </figure>
       ))}
     </div>

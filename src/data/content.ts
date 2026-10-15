@@ -18,12 +18,14 @@ for (const lang of ["en", "pt"] as const) {
     url: image.source,
     alt: image.caption,
     caption: image.caption,
+    size: image.size,
   })));
   const readyMade = data[lang].products.find((item) => item.slug === "ready-made-items");
   if (readyMade) readyMade.slides = readyMadeImages.map((image) => ({
     url: image.source,
     alt: image.caption,
     caption: image.caption,
+    size: image.size,
   }));
   for (const step of data[lang].protocol) {
     const photo = protocolPhotos[step.id as keyof typeof protocolPhotos];
