@@ -17,11 +17,17 @@
   },
   {
     "source": "Lumbo-Sacral Belt (with steel plates and straps).jpeg",
-    "local": "/images/products/Lumbo-Sacral%20Belt%20(with%20steel%20plates%20and%20straps).jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/3_collage.jpg",
+    "width": 3320,
+    "height": 3320,
     "caption": "Lumbo-Sacral Belt (with steel plates and straps)",
-    "size": "S, M, L, XL"
+    "size": "S, M, L, XL",
+    "collageSources": [
+      "Lumbo-Sacral Belt (with steel plates and straps).jpeg",
+      "03.1.jpeg",
+      "03.jpeg",
+      "3.1.jpeg"
+    ]
   },
   {
     "source": "Lumber support Elastic.jpeg",
@@ -41,11 +47,16 @@
   },
   {
     "source": "Dynamic finger splint.jpeg",
-    "local": "/images/products/Dynamic%20finger%20splint.jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/6_collage.jpg",
+    "width": 4960,
+    "height": 1680,
     "caption": "Dynamic finger splint",
-    "size": "One Size"
+    "size": "One Size",
+    "collageSources": [
+      "Dynamic finger splint.jpeg",
+      "6.1.jpeg",
+      "6.2.jpeg"
+    ]
   },
   {
     "source": "Finger straightner.jpeg",
@@ -65,27 +76,39 @@
   },
   {
     "source": "Finger immobilizer splint (Plastic).jpeg",
-    "local": "/images/products/Finger%20immobilizer%20splint%20(Plastic).jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/9_collage.jpg",
+    "width": 3320,
+    "height": 1680,
     "caption": "Finger immobilizer splint (Plastic)",
-    "size": "0, 1, 2, 3, 4, 5"
+    "size": "0, 1, 2, 3, 4, 5",
+    "collageSources": [
+      "Finger immobilizer splint (Plastic).jpeg",
+      "9.1.jpeg"
+    ]
   },
   {
     "source": "Wrist hand fingers orthosis (side opening).jpeg",
-    "local": "/images/products/Wrist%20hand%20fingers%20orthosis%20(side%20opening).jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/10_collage.jpg",
+    "width": 3320,
+    "height": 1680,
     "caption": "Wrist hand fingers orthosis (side opening)",
-    "size": "Left, Right"
+    "size": "Left, Right",
+    "collageSources": [
+      "Wrist hand fingers orthosis (side opening).jpeg",
+      "10.1.jpeg"
+    ]
   },
   {
     "source": "Wrist thumb Support -2.jpeg",
-    "local": "/images/products/Wrist%20thumb%20Support%20-2.jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/11_collage.jpg",
+    "width": 3320,
+    "height": 1680,
     "caption": "Wrist thumb Support -2",
-    "size": "One size"
+    "size": "One size",
+    "collageSources": [
+      "Wrist thumb Support -2.jpeg",
+      "11.1.jpeg"
+    ]
   },
   {
     "source": "Lower limb Traction belt.jpeg",
@@ -105,19 +128,27 @@
   },
   {
     "source": "Thoraco-lumber fixation brace ASFK-49.jpeg",
-    "local": "/images/products/Thoraco-lumber%20fixation%20brace%20ASFK-49.jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/14_collage.jpg",
+    "width": 3320,
+    "height": 1680,
     "caption": "Thoraco-lumber fixation brace ASFK-49",
-    "size": "One Size"
+    "size": "One Size",
+    "collageSources": [
+      "Thoraco-lumber fixation brace ASFK-49.jpeg",
+      "14.1.jpeg"
+    ]
   },
   {
     "source": "Thoraco-lumber fixation brace ASFK-50.jpeg",
-    "local": "/images/products/Thoraco-lumber%20fixation%20brace%20ASFK-50.jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/15_collage.jpg",
+    "width": 3320,
+    "height": 1680,
     "caption": "Thoraco-lumber fixation brace ASFK-50",
-    "size": "Adult= 1\nChild= 1"
+    "size": "Adult= 1\nChild= 1",
+    "collageSources": [
+      "Thoraco-lumber fixation brace ASFK-50.jpeg",
+      "15.1.jpeg"
+    ]
   },
   {
     "source": "3-Point hyper-extension brace.jpeg",
@@ -201,11 +232,15 @@
   },
   {
     "source": "Shoulder abduction brace (for adult).jpeg",
-    "local": "/images/products/Shoulder%20abduction%20brace%20(for%20adult).jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/26_collage.jpg",
+    "width": 3320,
+    "height": 1680,
     "caption": "Shoulder abduction brace (for adult)",
-    "size": "S, M, L"
+    "size": "S, M, L",
+    "collageSources": [
+      "Shoulder abduction brace (for adult).jpeg",
+      "26.1.jpeg"
+    ]
   },
   {
     "source": "Inflatable walking Boot long-A (Grey).jpeg",
@@ -217,11 +252,15 @@
   },
   {
     "source": "Unilateral Hip Abduction brace (for Adult).jpeg",
-    "local": "/images/products/Unilateral%20Hip%20Abduction%20brace%20(for%20Adult).jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/28_collage.jpg",
+    "width": 3320,
+    "height": 1680,
     "caption": "Unilateral Hip Abduction brace (for Adult)",
-    "size": "One size"
+    "size": "One size",
+    "collageSources": [
+      "Unilateral Hip Abduction brace (for Adult).jpeg",
+      "28.1.jpeg"
+    ]
   },
   {
     "source": "Arm support sling.jpeg",
@@ -241,18 +280,26 @@
   },
   {
     "source": "Protective Helmet (Adult).jpeg",
-    "local": "/images/products/Protective%20Helmet%20(Adult).jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/31_collage.jpg",
+    "width": 3320,
+    "height": 1680,
     "caption": "Protective Helmet (Adult)",
-    "size": "One size\n55-70 cm"
+    "size": "One size\n55-70 cm",
+    "collageSources": [
+      "Protective Helmet (Adult).jpeg",
+      "31.1.jpeg"
+    ]
   },
   {
     "source": "Height Adjustable Shower chair with arms & back-rest for elderly and disabled.jpeg",
-    "local": "/images/products/height-adjustable-shower-chair.jpeg",
-    "width": 1066,
-    "height": 1600,
+    "local": "/images/products/collages/34_collage.jpg",
+    "width": 3320,
+    "height": 1680,
     "caption": "Height Adjustable Shower chair with arms & back-rest for elderly and disabled",
-    "size": "One size"
+    "size": "One size",
+    "collageSources": [
+      "Height Adjustable Shower chair with arms & back-rest for elderly and disabled.jpeg",
+      "34.1.jpeg"
+    ]
   }
 ]
